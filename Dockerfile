@@ -1,4 +1,4 @@
-# 1º estágio
+/home/fabio/Documentos/git-trybe/Projetos-Java/java-034-projeto-agrix/java-034-java-projeto-final-agrix-fase-b/docker-compose.yaml# 1º estágio
 # chamado `build-image`, imagem JDK temporária para compilar o código
 FROM eclipse-temurin:17-jdk-jammy as build-image
 # define o diretório de trabalho
