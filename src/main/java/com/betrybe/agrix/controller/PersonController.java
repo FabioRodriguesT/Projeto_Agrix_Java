@@ -2,7 +2,7 @@ package com.betrybe.agrix.controller;
 
 import com.betrybe.agrix.controller.dto.PersonCreationDto;
 import com.betrybe.agrix.controller.dto.PersonDto;
-import com.betrybe.agrix.ebytr.staff.service.PersonService;
+import com.betrybe.agrix.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;

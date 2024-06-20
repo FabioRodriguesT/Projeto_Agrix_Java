@@ -1,6 +1,6 @@
 package com.betrybe.agrix.security;
 
-import com.betrybe.agrix.ebytr.staff.service.PersonService;
+import com.betrybe.agrix.service.PersonService;
 import com.betrybe.agrix.service.TokenService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -33,18 +33,18 @@ public class JwtFilter extends OncePerRequestFilter {
   @Override
   protected  void doFilterInternal(
           HttpServletRequest request,
-          HttpServletResponse response,
+          HttpServletResponse  response,
           FilterChain filterChain
   ) throws ServletException, IOException {
     Optional<String> token = extractToken(request);
 
     if (token.isPresent()) {
       String subject = tokenService.validateToken(token.get());
-
       UserDetails userDetails = personService.loadUserByUsername(subject);
 
       UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(
               userDetails, null, userDetails.getAuthorities());
+
       SecurityContextHolder.getContext().setAuthentication(authentication);
     }
 

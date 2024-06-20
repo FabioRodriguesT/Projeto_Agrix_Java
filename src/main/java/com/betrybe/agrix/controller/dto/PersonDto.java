@@ -1,7 +1,7 @@
 package com.betrybe.agrix.controller.dto;
 
-import com.betrybe.agrix.ebytr.staff.entity.Person;
-import com.betrybe.agrix.ebytr.staff.security.Role;
+import com.betrybe.agrix.entity.Person;
+import com.betrybe.agrix.security.Role;
 
 /**
  * Class: Person Dto.

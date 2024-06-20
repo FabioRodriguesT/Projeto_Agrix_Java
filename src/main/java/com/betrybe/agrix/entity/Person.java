@@ -1,6 +1,6 @@
-package com.betrybe.agrix.ebytr.staff.entity;
+package com.betrybe.agrix.entity;
 
-import com.betrybe.agrix.ebytr.staff.security.Role;
+import com.betrybe.agrix.security.Role;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,10 +10,11 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 /**
- * Class representing a person.
+ * Class: Person.
  */
 @Entity
 public class Person implements UserDetails {
@@ -30,6 +31,15 @@ public class Person implements UserDetails {
   private Role role;
 
   public Person() {
+  }
+
+  /**
+   * Method: Constructor of Person.
+   */
+  public Person(String username, String password, Role role) {
+    this.username = username;
+    this.password = password;
+    this.role = role;
   }
 
   /**
@@ -81,7 +91,7 @@ public class Person implements UserDetails {
 
   @Override
   public Collection<? extends GrantedAuthority> getAuthorities() {
-    return List.of();
+    return List.of(new SimpleGrantedAuthority(role.getName()));
   }
 
   @Override
