@@ -1,9 +1,11 @@
 ## Rotas
 <table>
   <thead>
-    <tr>Método HTTP</tr>
-    <tr>Rota</tr>
-    <tr>Descrição</tr>
+    <tr>
+      <th>Método HTTP</th>
+      <th>Rota</th>
+      <th>Descrição</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
