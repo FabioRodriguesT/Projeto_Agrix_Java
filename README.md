@@ -25,7 +25,7 @@
     </tr>
     <tr>      
       <td>/farms/:farmId/crops</td>
-      <td>Lista as informações de todas as plantações de uma fazenda específica baseado no farmID passado na URL.</td>
+      <td>Lista as informações de todas as plantações de uma fazenda específica baseado no farmId passado na URL.</td>
       <td>GET</td>
     </tr>
   </tbody>
