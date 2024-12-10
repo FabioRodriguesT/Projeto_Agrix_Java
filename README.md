@@ -15,7 +15,7 @@
     </tr>
     <tr>     
       <td>/farms</td>
-      <td>Lista todas as fazendas</td>
+      <td>Lista todas as fazendas cadastradas.</td>
       <td>GET</td>
     </tr>
     <tr>      
@@ -26,6 +26,57 @@
     <tr>      
       <td>/farms/:farmId/crops</td>
       <td>Lista as informações de todas as plantações de uma fazenda específica baseado no ID passado na URL.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>/crops</td>
+      <td>Lista as informações de todas as plantações cadastradas.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>/crops/:id</td>
+      <td>Lista as informações de uma plantação específica baseado no ID passado na URL.</td>
+      <td>GET</td>
+    </tr>
+<!-- ROTAS FASE B -->
+    <tr>
+      <td>/farms/:farmId/crops</td>
+      <td>Cadastra uma nova plantação em uma fazenda específica baseada no id passado na URL.</td>
+      <td>POST</td>
+    </tr>
+    <tr>
+      <td>/farms/:farmId/crops</td>
+      <td>Lista as informações de todas as plantações de uma fazenda específica baseado no ID passado na url.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>/crops</td>
+      <td>Lista todas as informações de todas as plantações cadastradas.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>/crops/:id</td>
+      <td>Lista as informações de uma plantação baseado no ID passado na URL.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>/crops/search</td>
+      <td>Busca informações de plantações em um período de tempo específico, baseado na data de inicio e na data de fim deste periodo, passado como paramêtro no corpo da requisição.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>/fertilizers</td>
+      <td>Cadastra um novo fertilizante.</td>
+      <td>POST</td>
+    </tr>
+    <tr>
+      <td>/fertilizers</td>
+      <td>Lista as informações de todos os fertilizantes cadastrados.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>fertilizers/:id</td>
+      <td>Lista um fertilizante, a partir do id específico.</td>
       <td>GET</td>
     </tr>
   </tbody>
