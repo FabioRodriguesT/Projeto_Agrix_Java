@@ -40,6 +40,11 @@
     </tr>
 <!-- ROTAS FASE B -->
     <tr>
+      <td>/crops/search</td>
+      <td>Busca informações de plantações em um período de tempo específico, baseado na data de inicio e na data de fim deste periodo, passado como paramêtro no corpo da requisição.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
       <td>/farms/:farmId/crops</td>
       <td>Cadastra uma nova plantação em uma fazenda específica baseada no id passado na URL.</td>
       <td>POST</td>
@@ -49,6 +54,7 @@
       <td>Lista as informações de todas as plantações de uma fazenda específica baseado no ID passado na url.</td>
       <td>GET</td>
     </tr>
+    <!--
     <tr>
       <td>/crops</td>
       <td>Lista todas as informações de todas as plantações cadastradas.</td>
@@ -59,11 +65,7 @@
       <td>Lista as informações de uma plantação baseado no ID passado na URL.</td>
       <td>GET</td>
     </tr>
-    <tr>
-      <td>/crops/search</td>
-      <td>Busca informações de plantações em um período de tempo específico, baseado na data de inicio e na data de fim deste periodo, passado como paramêtro no corpo da requisição.</td>
-      <td>GET</td>
-    </tr>
+    -->
     <tr>
       <td>/fertilizers</td>
       <td>Cadastra um novo fertilizante.</td>
