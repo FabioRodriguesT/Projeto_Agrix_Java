@@ -2,7 +2,7 @@
 <table>
   <thead>
     <tr>
-      <th>Método HTTP</th>
+      <th>Método HTTP           </th>
       <th>Rota</th>
       <th>Descrição</th>
     </tr>
