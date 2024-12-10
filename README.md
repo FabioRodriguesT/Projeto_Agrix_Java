@@ -46,7 +46,7 @@
     </tr>
     <tr>
       <td>/farms/:farmId/crops</td>
-      <td>Cadastra uma nova plantação em uma fazenda específica baseada no id passado na URL.</td>
+      <td>Cadastra uma nova plantação em uma fazenda específica baseada no ID passado na URL.</td>
       <td>POST</td>
     </tr>
     <tr>
