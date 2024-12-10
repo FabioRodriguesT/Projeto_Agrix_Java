@@ -2,31 +2,31 @@
 <table>
   <thead>
     <tr>
-      <th>Método HTTP           </th>
-      <th>Rota</th>
+      <th>Rota</th> 
       <th>Descrição</th>
+      <th>Método HTTP</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>POST</td>
+    <tr>      
       <td>/farms</td>
       <td>Cadastra uma nova fazenda.</td>
+      <td>POST</td>
     </tr>
-    <tr>
-      <td>GET</td>
+    <tr>     
       <td>/farms</td>
       <td>Lista todas as fazendas</td>
-    </tr>
-    <tr>
       <td>GET</td>
-      <td>/farms/:id</td>
+    </tr>
+    <tr>      
+      <td>/farms/{id}</td>
       <td>Lista as informações de uma fazenda específica baseado no ID passado na URL.</td>
-    </tr>
-    <tr>
       <td>GET</td>
-      <td>/farms/:farmId/crops</td>
+    </tr>
+    <tr>      
+      <td>/farms/{farmId}/crops</td>
       <td>Lista as informações de todas as plantações de uma fazenda específica baseado no farmID passado na URL.</td>
+      <td>GET</td>
     </tr>
   </tbody>
 </table>
