@@ -89,6 +89,12 @@
       <td>Lista as informações de todos os fertilizantes associados a plantação específica baseado no id passado na URL.</td>
       <td>GET</td>
     </tr>
+    <!-- ROTAS FASE B -->
+    <tr>
+      <td>/persons</td>
+      <td>Cadastra uma nova pessoa.</td>
+      <td>POST</td>
+    </tr>
   </tbody>
 </table>
 
