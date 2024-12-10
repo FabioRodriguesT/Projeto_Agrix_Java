@@ -1,5 +1,28 @@
 ## Rotas
-
+<table>
+  <thead>
+    <tr>Método HTTP</tr>
+    <tr>Rota</tr>
+    <tr>Descrição</tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>POST</td>
+      <td>/farms</td>
+      <td>Cadastra uma nova fazenda.</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/farms</td>
+      <td>Lista todas as fazendas</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/farms/:id</td>
+      <td>Lista as informações de uma fazenda específicoa baseado no ID passado na URL.</td>
+    </tr>    
+  </tbody>
+</table>
 
 
 ## Dependências
