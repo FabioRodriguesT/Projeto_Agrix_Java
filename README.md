@@ -19,12 +19,12 @@
       <td>GET</td>
     </tr>
     <tr>      
-      <td>/farms/{id}</td>
+      <td>/farms/:id</td>
       <td>Lista as informações de uma fazenda específica baseado no ID passado na URL.</td>
       <td>GET</td>
     </tr>
     <tr>      
-      <td>/farms/{farmId}/crops</td>
+      <td>/farms/:farmId/crops</td>
       <td>Lista as informações de todas as plantações de uma fazenda específica baseado no farmID passado na URL.</td>
       <td>GET</td>
     </tr>
