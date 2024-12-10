@@ -19,8 +19,13 @@
     <tr>
       <td>GET</td>
       <td>/farms/:id</td>
-      <td>Lista as informações de uma fazenda específicoa baseado no ID passado na URL.</td>
-    </tr>    
+      <td>Lista as informações de uma fazenda específica baseado no ID passado na URL.</td>
+    </tr>
+    <tr>
+      <td>GET</td>
+      <td>/farms/:farmId/crops</td>
+      <td>Lista as informações de todas as plantações de uma fazenda específica baseado no farmID passado na URL.</td>
+    </tr>
   </tbody>
 </table>
 
