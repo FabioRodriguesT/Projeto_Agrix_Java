@@ -76,7 +76,17 @@
     </tr>
     <tr>
       <td>fertilizers/:id</td>
-      <td>Lista um fertilizante, a partir do id específico.</td>
+      <td>Lista as informações de um fertilizante baseado no ID passado na URL.</td>
+      <td>GET</td>
+    </tr>
+    <tr>
+      <td>crops/:cropId/fertilizers/:ferilizersId</td>
+      <td>Realiza a associação de uma plantação com um fertilizante, utilizando o ID de plantação e o ID de fertilizante passado na URL.</td>
+      <td>POST</td>
+    </tr>
+    <tr>
+      <td>crops/:cropId/fertilizers</td>
+      <td>Lista as informações de todos os fertilizantes associados a plantação específica baseado no id passado na URL.</td>
       <td>GET</td>
     </tr>
   </tbody>
