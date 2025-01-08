@@ -58,7 +58,7 @@ Para orientar a construção das tabelas através do ORM, utilize o DER a seguir
 
 3. Execute a aplicação
 
--`Executar a Classe Principal (AgrixApplication.java)`
+- `Executar a Classe Principal (AgrixApplication.java)`
 
 
 ## Rotas
