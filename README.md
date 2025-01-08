@@ -13,6 +13,9 @@ O Agrix é um sistema desenvolvido em Java que permite a gestão e o monitoramen
 
 ## Diagrama de Entidade e Relacionamento
 
+Para orientar a construção das tabelas através do ORM, utilize o DER a seguir:
+<p align="center"><img src="./agrix_database.png"></p>
+
 ## Sobre o projeto
 
 ### O que foi desenvolvido
