@@ -44,7 +44,7 @@ Para orientar a construção das tabelas através do ORM, utilize o DER a seguir
 - Utilizar o Spring Security para implementar autenticação e autorização de pessoas usuárias.
 - Utilizar campos de data nas rotas da API e no banco de dados.
 
-## Instalação e instruções de utilização do projeto
+## Instalação
 
 1. Clone o repositório
 
@@ -60,8 +60,9 @@ Para orientar a construção das tabelas através do ORM, utilize o DER a seguir
 
 - `Executar a Classe Principal (AgrixApplication.java)`
 
+## Instruções de utilização do projeto
 
-## Rotas
+### Rotas
 <table>
   <thead>
     <tr>
