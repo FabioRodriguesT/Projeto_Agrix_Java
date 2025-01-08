@@ -32,6 +32,8 @@ O Agrix é um sistema desenvolvido em Java que permite a gestão e o monitoramen
 - Utilizar o Spring Security para implementar autenticação e autorização de pessoas usuárias.
 - Utilizar campos de data nas rotas da API e no banco de dados.
 
+## Instalação
+
 ## Rotas
 <table>
   <thead>
