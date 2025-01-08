@@ -44,20 +44,22 @@ Para orientar a construção das tabelas através do ORM, utilize o DER a seguir
 - Utilizar o Spring Security para implementar autenticação e autorização de pessoas usuárias.
 - Utilizar campos de data nas rotas da API e no banco de dados.
 
-## Instalação
+## Instalação e instruções de utilização do projeto
 
-## Instruções de utilização do projeto
+1. Clone o repositório
 
-```bash
-# Clone ou baixe o repositório
-git clone git@github.com:FabioRodriguesT/Projeto_Agrix_Java.git
-# Entre no diretório
-cd Projeto_Agrix_Java
-# Instale as dependências
-mvn install -DskipTests
-# Execute a aplicação
-Executar a Classe Principal (AgrixApplication.java)
-```
+- Use o comando: `git clone git@github.com:FabioRodriguesT/Projeto_Agrix_Java.git`
+- Entre na pasta do repositório que você acabou de clonar:
+    - `cd Projeto_Agrix_Java`
+
+2. Instale as dependências
+
+- `mvn install -DskipTests`
+
+3. Execute a aplicação
+
+-`Executar a Classe Principal (AgrixApplication.java)`
+
 
 ## Rotas
 <table>
