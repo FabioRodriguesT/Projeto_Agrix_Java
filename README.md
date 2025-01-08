@@ -1,6 +1,8 @@
 ## Descrição
 
 O Agrix é um sistema desenvolvido em Java que permite a gestão e o monitoramento de fazendas participantes. Este projeto demonstra a aplicação de diversos conceitos e tecnologias do ecossistema Spring para criar uma API robusta e segura.
+O principal objetivo do projeto é melhorar a eficiência no cultivo de plantações e promover a sustentabilidade, com foco em reduzir o desperdício de recursos.
+
 
 ## Sumário
 
