@@ -43,7 +43,7 @@ O Agrix é um sistema desenvolvido em Java que permite a gestão e o monitoramen
 
 ## Instalação
 
-## Instrução de utilização do projeto
+## Instruções de utilização do projeto
 
 ## Rotas
 <table>
