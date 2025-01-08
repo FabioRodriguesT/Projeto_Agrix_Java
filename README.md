@@ -45,6 +45,17 @@ O Agrix é um sistema desenvolvido em Java que permite a gestão e o monitoramen
 
 ## Instruções de utilização do projeto
 
+```bash
+# Clone ou baixe o repositório
+git clone git@github.com:LarissaSimoes/projeto-agrix-java-fase-c.git
+# Entre no diretório
+cd project-agrix-java-fase-c
+# Instale as dependências
+mvn install -DskipTests
+# Execute a aplicação
+Executar a Classe Principal (AgrixApplication.java)
+```
+
 ## Rotas
 <table>
   <thead>
