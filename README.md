@@ -1,3 +1,37 @@
+## Descrição
+
+O Agrix é um sistema desenvolvido em Java que permite a gestão e o monitoramento de fazendas participantes. Este projeto demonstra a aplicação de diversos conceitos e tecnologias do ecossistema Spring para criar uma API robusta e segura.
+
+## Diagrama de Entidade e Relacionamento
+
+## Sobre o projeto
+
+### O que foi desenvolvido
+
+#### Fase A
+
+- Estruturação de um projeto em camadas
+- Implementação de uma API
+- Implementação de persistência no projeto
+- Testes unitários
+- Dockerização da aplicação
+
+#### Fase B
+
+- Aplicar o conhecimento do ecossistema Spring para criar rotas da API.
+- Aplicar a injeção de dependência para conectar as camadas de controle, serviço e persistência.
+- Utilizar o Spring Data JPA para implementar entidades e repositórios para a persistência em banco de dados, bem como implementar buscas customizadas.
+- Utilizar campos de data nas rotas da API e no banco de dados.
+- Criar testes unitários para garantir a qualidade e funcionamento correto da implementação, com cobertura de código adequada.
+
+#### Fase C
+
+- Aplicar o conhecimento do ecossistema Spring para criar rotas da API.
+- Aplicar a injeção de dependência para conectar as camadas de controle, serviço e persistência.
+- Utilizar o Spring Data JPA para implementar entidades e repositórios para a persistência em banco de dados, bem como implementar buscas customizadas.
+- Utilizar o Spring Security para implementar autenticação e autorização de pessoas usuárias.
+- Utilizar campos de data nas rotas da API e no banco de dados.
+
 ## Rotas
 <table>
   <thead>
